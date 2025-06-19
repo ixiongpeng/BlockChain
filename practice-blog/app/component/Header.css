@@ -1,0 +1,66 @@
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.headerMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+.headerText{
+   font-size: 24px;
+   color: white; 
+}
+
+.subject{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subjectItem{
+    font-size: 16px;
+    color: gray;
+    margin: 0px 8px;
+}
+
+.searchContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchImage{
+    width: 18px;
+    height: 18px;
+}
+
+.searchInput{
+    font-size: 16px;
+    color: gray;
+    margin-left: 4px;
+    padding: 3px 4px;
+}
+
+.login{
+    font-size: 16px;
+    color: white;
+    margin: 0 30px;
+}
+
